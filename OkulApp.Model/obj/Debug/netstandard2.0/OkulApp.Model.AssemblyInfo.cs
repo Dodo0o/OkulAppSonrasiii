@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OkulApp.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baf42a026aa75394e331cd1a6aac461f98db497b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OkulApp.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OkulApp.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

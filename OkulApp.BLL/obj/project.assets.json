@@ -1040,11 +1040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.BLL\\OkulApp.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.BLL\\OkulApp.BLL.csproj",
       "projectName": "OkulApp.BLL",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.BLL\\OkulApp.BLL.csproj",
+      "projectPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.BLL\\OkulApp.BLL.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.BLL\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1059,11 +1059,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.DAL\\OkulApp.DAL.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.DAL\\OkulApp.DAL.csproj"
+            "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj"
             },
-            "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.Model\\OkulApp.Model.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\OkulApp\\OkulApp\\OkulApp.Model\\OkulApp.Model.csproj"
+            "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj"
             }
           }
         }
