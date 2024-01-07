@@ -41,3 +41,14 @@ C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.DAL\obj\Debug\netstanda
 C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.sourcelink.json
 C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.dll
 C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.pdb
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\bin\Debug\netstandard2.0\OkulApp.DAL.deps.json
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\bin\Debug\netstandard2.0\OkulApp.DAL.dll
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\bin\Debug\netstandard2.0\OkulApp.DAL.pdb
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.csproj.AssemblyReference.cache
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.AssemblyInfoInputs.cache
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.AssemblyInfo.cs
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.sourcelink.json
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.dll
+C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp.DAL\obj\Debug\netstandard2.0\OkulApp.DAL.pdb

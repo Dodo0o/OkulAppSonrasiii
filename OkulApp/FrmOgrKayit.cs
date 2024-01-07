@@ -32,7 +32,11 @@ namespace OkulApp
             {
                 bool sonuc = obl.OgrenciKaydet(new Ogrenci { Ad = txtAd.Text.Trim(), Soyad = txtSoyad.Text.Trim(), Numara = txtNumara.Text.Trim() });
                 MessageBox.Show(sonuc ? "Ekleme Başarılı" : "Ekleme Başarısız");
-                
+
+                txtAd.Clear();
+                txtSoyad.Clear();
+                txtNumara.Clear();
+
             }
             
             catch (SqlException ex)
@@ -56,20 +60,62 @@ namespace OkulApp
 
         private void btnBul_Click(object sender, EventArgs e)
         {
-            var frm = new FrmOgrBul(this);
-            frm.Show();
+            try
+            {
+                var frm = new FrmOgrBul(this);
+                frm.Show();
+            }
+            catch (SqlException)
+            {
+
+                throw;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            var obl = new OgrenciBL();
-            MessageBox.Show(obl.OgrenciSil(OgrenciId) ? "Silme Başarılı" : "Başarısız!");
+            try
+            {
+                var obl = new OgrenciBL();
+                MessageBox.Show(obl.OgrenciSil(OgrenciId) ? "Silme Başarılı" : "Başarısız!");
+                txtAd.Clear();
+                txtSoyad.Clear();
+                txtNumara.Clear();
+            }
+            catch (SqlException)
+            {
+
+                throw;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            var obl = new OgrenciBL();
-            MessageBox.Show(obl.OgrenciGuncelle(new Ogrenci { Ad = txtAd.Text.Trim(), Soyad = txtSoyad.Text.Trim(), Numara = txtNumara.Text.Trim(), OgrenciId = OgrenciId }) ? "Güncelleme Başarılı" : "Güncelleme Başarısız!");
+            try
+            {
+                var obl = new OgrenciBL();
+                MessageBox.Show(obl.OgrenciGuncelle(new Ogrenci { Ad = txtAd.Text.Trim(), Soyad = txtSoyad.Text.Trim(), Numara = txtNumara.Text.Trim(), OgrenciId = OgrenciId }) ? "Güncelleme Başarılı" : "Güncelleme Başarısız!");
+            }
+            catch (SqlException)
+            {
+
+                throw;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 

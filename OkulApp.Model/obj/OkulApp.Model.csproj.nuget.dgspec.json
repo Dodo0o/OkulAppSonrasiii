@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj": {}
+    "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\OkulApp.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj": {
+    "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\OkulApp.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\OkulApp.Model.csproj",
         "projectName": "OkulApp.Model",
-        "projectPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj",
+        "projectPath": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\OkulApp.Model.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config"

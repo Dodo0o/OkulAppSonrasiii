@@ -19,14 +19,30 @@ namespace OkulApp
 
         private void btngirisogrencikayit_Click(object sender, EventArgs e)
         {
-            FrmOgrKayit frmOgrKayit = new FrmOgrKayit();
-            frmOgrKayit.Show();
+            try
+            {
+                FrmOgrKayit frmOgrKayit = new FrmOgrKayit();
+                frmOgrKayit.Show();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void btngirisogretmenkayit_Click(object sender, EventArgs e)
         {
-            FrmOgretmenKayit frmOgretmenKayit = new FrmOgretmenKayit();
-            frmOgretmenKayit.Show();
+            try
+            {
+                FrmOgretmenKayit frmOgretmenKayit = new FrmOgretmenKayit();
+                frmOgretmenKayit.Show();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

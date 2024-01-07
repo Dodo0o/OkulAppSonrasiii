@@ -130,6 +130,7 @@
             // 
             // btnSil
             // 
+            this.btnSil.Enabled = false;
             this.btnSil.Location = new System.Drawing.Point(392, 109);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 23);
@@ -140,6 +141,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Enabled = false;
             this.btnGuncelle.Location = new System.Drawing.Point(392, 167);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(75, 23);
@@ -173,12 +175,12 @@
         private System.Windows.Forms.Label lblSoyad;
         private System.Windows.Forms.Label lblAd;
         private System.Windows.Forms.Button btnKaydet;
-        private System.Windows.Forms.Button btnBul;
-        private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnGuncelle;
         public System.Windows.Forms.TextBox txtNumara;
         public System.Windows.Forms.TextBox txtSoyad;
         public System.Windows.Forms.TextBox txtAd;
+        public System.Windows.Forms.Button btnSil;
+        public System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnBul;
     }
 }
 

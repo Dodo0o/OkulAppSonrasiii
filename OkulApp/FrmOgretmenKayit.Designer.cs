@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.grpOgretmenKayit = new System.Windows.Forms.GroupBox();
+            this.btnOgretmenKaydet = new System.Windows.Forms.Button();
+            this.txtOgretmenTCKimlik = new System.Windows.Forms.TextBox();
+            this.txtOgretmenSoyad = new System.Windows.Forms.TextBox();
+            this.txtOgretmenAd = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtOgretmenAd = new System.Windows.Forms.TextBox();
-            this.txtOgretmenSoyad = new System.Windows.Forms.TextBox();
-            this.txtOgretmenTCKimlik = new System.Windows.Forms.TextBox();
-            this.btnOgretmenKaydet = new System.Windows.Forms.Button();
             this.grpOgretmenKayit.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +54,37 @@
             this.grpOgretmenKayit.TabIndex = 0;
             this.grpOgretmenKayit.TabStop = false;
             this.grpOgretmenKayit.Text = "Öğretmen Kayıt";
+            // 
+            // btnOgretmenKaydet
+            // 
+            this.btnOgretmenKaydet.Location = new System.Drawing.Point(144, 281);
+            this.btnOgretmenKaydet.Name = "btnOgretmenKaydet";
+            this.btnOgretmenKaydet.Size = new System.Drawing.Size(137, 65);
+            this.btnOgretmenKaydet.TabIndex = 6;
+            this.btnOgretmenKaydet.Text = "Kaydet";
+            this.btnOgretmenKaydet.UseVisualStyleBackColor = true;
+            this.btnOgretmenKaydet.Click += new System.EventHandler(this.btnOgretmenKaydet_Click);
+            // 
+            // txtOgretmenTCKimlik
+            // 
+            this.txtOgretmenTCKimlik.Location = new System.Drawing.Point(181, 223);
+            this.txtOgretmenTCKimlik.Name = "txtOgretmenTCKimlik";
+            this.txtOgretmenTCKimlik.Size = new System.Drawing.Size(100, 20);
+            this.txtOgretmenTCKimlik.TabIndex = 5;
+            // 
+            // txtOgretmenSoyad
+            // 
+            this.txtOgretmenSoyad.Location = new System.Drawing.Point(181, 144);
+            this.txtOgretmenSoyad.Name = "txtOgretmenSoyad";
+            this.txtOgretmenSoyad.Size = new System.Drawing.Size(100, 20);
+            this.txtOgretmenSoyad.TabIndex = 4;
+            // 
+            // txtOgretmenAd
+            // 
+            this.txtOgretmenAd.Location = new System.Drawing.Point(181, 50);
+            this.txtOgretmenAd.Name = "txtOgretmenAd";
+            this.txtOgretmenAd.Size = new System.Drawing.Size(100, 20);
+            this.txtOgretmenAd.TabIndex = 3;
             // 
             // label3
             // 
@@ -82,42 +113,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad";
             // 
-            // txtOgretmenAd
-            // 
-            this.txtOgretmenAd.Location = new System.Drawing.Point(181, 50);
-            this.txtOgretmenAd.Name = "txtOgretmenAd";
-            this.txtOgretmenAd.Size = new System.Drawing.Size(100, 20);
-            this.txtOgretmenAd.TabIndex = 3;
-            // 
-            // txtOgretmenSoyad
-            // 
-            this.txtOgretmenSoyad.Location = new System.Drawing.Point(181, 144);
-            this.txtOgretmenSoyad.Name = "txtOgretmenSoyad";
-            this.txtOgretmenSoyad.Size = new System.Drawing.Size(100, 20);
-            this.txtOgretmenSoyad.TabIndex = 4;
-            // 
-            // txtOgretmenTCKimlik
-            // 
-            this.txtOgretmenTCKimlik.Location = new System.Drawing.Point(181, 223);
-            this.txtOgretmenTCKimlik.Name = "txtOgretmenTCKimlik";
-            this.txtOgretmenTCKimlik.Size = new System.Drawing.Size(100, 20);
-            this.txtOgretmenTCKimlik.TabIndex = 5;
-            // 
-            // btnOgretmenKaydet
-            // 
-            this.btnOgretmenKaydet.Location = new System.Drawing.Point(144, 281);
-            this.btnOgretmenKaydet.Name = "btnOgretmenKaydet";
-            this.btnOgretmenKaydet.Size = new System.Drawing.Size(137, 65);
-            this.btnOgretmenKaydet.TabIndex = 6;
-            this.btnOgretmenKaydet.Text = "Kaydet";
-            this.btnOgretmenKaydet.UseVisualStyleBackColor = true;
-            this.btnOgretmenKaydet.Click += new System.EventHandler(this.btnOgretmenKaydet_Click);
-            // 
             // FrmOgretmenKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 450);
+            this.ClientSize = new System.Drawing.Size(622, 450);
             this.Controls.Add(this.grpOgretmenKayit);
             this.Name = "FrmOgretmenKayit";
             this.Text = "FrmOgretmenKayit";

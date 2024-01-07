@@ -9,9 +9,14 @@ namespace OkulApp.BLL
 {
     public class OgretmenBL
     {
+        private Helper hlp;
+        public OgretmenBL()
+        {
+            hlp = Helper.GetInstance;
+        }
         public bool OgretmenKaydet(Ogretmen ogretmen)
         {
-            var hlp = new Helper();
+           // var hlp = new Helper();
             var p = new SqlParameter[]
             {
                 new SqlParameter("@Ad", ogretmen.Ad),

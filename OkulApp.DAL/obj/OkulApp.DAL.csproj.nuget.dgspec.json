@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj": {}
+    "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.DAL\\OkulApp.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj": {
+    "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.DAL\\OkulApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.DAL\\OkulApp.DAL.csproj",
         "projectName": "OkulApp.DAL",
-        "projectPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\OkulApp.DAL.csproj",
+        "projectPath": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.DAL\\OkulApp.DAL.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config"
