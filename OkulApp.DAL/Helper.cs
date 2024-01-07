@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
+using System.Net;
 
 namespace OkulApp.DAL
 {
@@ -9,25 +10,20 @@ namespace OkulApp.DAL
     {
         public void Dispose()
         {
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-        protected virtual void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
                 if (cn != null)
                 {
+                    cn.Close();
                     cn.Dispose();
                     cn = null;
                 }
 
                 if (cmd != null)
                 {
+                   
                     cmd.Dispose();
                     cmd = null;
                 }
-            }
+            
         }
         private static Helper instance;
         private SqlConnection cn;
@@ -63,6 +59,7 @@ namespace OkulApp.DAL
 
                 }
             }
+
             catch (Exception)
             {
                 throw;
@@ -84,9 +81,10 @@ namespace OkulApp.DAL
             }
             catch (Exception)
             {
-                Dispose();
+                
                 throw;
             }
+            finally { Dispose(); }
 
         }
         

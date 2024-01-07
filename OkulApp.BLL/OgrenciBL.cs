@@ -24,6 +24,7 @@ namespace OkulApp.BLL
 
                 //var hlp = new Helper();
                 return hlp.ExecuteNonQuery("Insert into tblOgrenciler (Ad,Soyad,Numara) values (@Ad,@Soyad,@Numara)", p) > 0;
+             
 
             }
             catch (SqlException)
@@ -56,6 +57,7 @@ namespace OkulApp.BLL
                 }
                 dr.Close();
                 return ogr;
+
             }
             catch (SqlException)
             {
@@ -67,6 +69,7 @@ namespace OkulApp.BLL
 
                 throw;
             }
+            finally { hlp.Dispose(); }
         }
         public bool OgrenciSil(int id)
         {

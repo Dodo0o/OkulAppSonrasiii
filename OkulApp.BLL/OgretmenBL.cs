@@ -102,11 +102,7 @@ namespace OkulApp.BLL
                 // Helper hlp = new Helper();
                 return hlp.ExecuteNonQuery("Update TblOgretmenler set Ad=@Ad,Soyad=@Soyad,TCKimlik=@TCKimlik where OgretmenId=@OgretmenId", p) > 0;
             }
-            catch (SqlException)
-            {
-
-                throw;
-            }
+           
             catch (Exception)
             {
 
