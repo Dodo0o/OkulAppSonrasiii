@@ -31,3 +31,14 @@ C:\Users\Monster\Desktop\OkulApp\OkulApp\OkulApp.Model\obj\Debug\netstandard2.0\
 C:\Users\Monster\Desktop\OkulApp\OkulApp\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.sourcelink.json
 C:\Users\Monster\Desktop\OkulApp\OkulApp\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.dll
 C:\Users\Monster\Desktop\OkulApp\OkulApp\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.pdb
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\bin\Debug\netstandard2.0\OkulApp.Model.deps.json
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\bin\Debug\netstandard2.0\OkulApp.Model.dll
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\bin\Debug\netstandard2.0\OkulApp.Model.pdb
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.csproj.AssemblyReference.cache
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.AssemblyInfoInputs.cache
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.AssemblyInfo.cs
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.sourcelink.json
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.dll
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp.Model\obj\Debug\netstandard2.0\OkulApp.Model.pdb

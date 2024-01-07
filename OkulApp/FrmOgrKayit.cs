@@ -13,8 +13,10 @@ using OkulApp.BLL;
 
 namespace OkulApp
 {
+    
     public partial class FrmOgrKayit : Form
     {
+        public int OgrenciId { get; set; }
         public FrmOgrKayit()
         {
             InitializeComponent();
@@ -52,6 +54,23 @@ namespace OkulApp
             }
         }
 
+        private void btnBul_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmOgrBul(this);
+            frm.Show();
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            var obl = new OgrenciBL();
+            MessageBox.Show(obl.OgrenciSil(OgrenciId) ? "Silme Başarılı" : "Başarısız!");
+        }
+
+        private void btnGuncelle_Click(object sender, EventArgs e)
+        {
+            var obl = new OgrenciBL();
+            MessageBox.Show(obl.OgrenciGuncelle(new Ogrenci { Ad = txtAd.Text.Trim(), Soyad = txtSoyad.Text.Trim(), Numara = txtNumara.Text.Trim(), OgrenciId = OgrenciId }) ? "Güncelleme Başarılı" : "Güncelleme Başarısız!");
+        }
     }
 
 
@@ -64,3 +83,11 @@ namespace OkulApp
 
 }
 
+//n Katmanlı Mimari
+
+//Öğrenci bulunma durumuna göre Sil ve Güncelle Butonları Aktifliği
+//Textbox'ların text'lerinin temizlenmesi
+//Öğrenci bulunduğunda bul formunun kapanması
+//Try-Catch'ler Katmanlar arası exception yönetimi
+//Dispose Pattern - IDisposeble Interface
+//Singleton Design Pattern

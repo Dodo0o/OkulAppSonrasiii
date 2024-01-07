@@ -59,6 +59,12 @@
     <Compile Include="FrmGiris.Designer.cs">
       <DependentUpon>FrmGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOgrBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrBul.Designer.cs">
+      <DependentUpon>FrmOgrBul.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOgretmenKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmGiris.resx">
       <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrBul.resx">
+      <DependentUpon>FrmOgrBul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgretmenKayit.resx">
       <DependentUpon>FrmOgretmenKayit.cs</DependentUpon>

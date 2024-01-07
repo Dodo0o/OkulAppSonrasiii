@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Data;
 
 namespace OkulApp.DAL
 {
@@ -25,6 +26,17 @@ namespace OkulApp.DAL
                 }
             }
 
+        }
+        public SqlDataReader ExecuteReader(string cmdtext, SqlParameter[] p = null)
+        {
+            cn = new SqlConnection(cstr);
+            cmd = new SqlCommand(cmdtext, cn);
+            if (p != null)
+            {
+                cmd.Parameters.AddRange(p);
+            }
+            cn.Open();
+            return cmd.ExecuteReader(CommandBehavior.CloseConnection);
         }
     }
 }
