@@ -19,7 +19,7 @@ namespace OkulApp
         {
             InitializeComponent();
         }
-
+        public int OgretmenId { get; set; }
         private void btnOgretmenKaydet_Click(object sender, EventArgs e)
         {
             var ogtbl = new OgretmenBL();
@@ -46,5 +46,49 @@ namespace OkulApp
                 MessageBox.Show("Bir Hata Oluştu!");
             }
         }
+
+        private void btnOgretmenBul_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var frm = new FrmOgretmenBul(this);
+                frm.Show();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private void btnOgretmenSil_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var obl = new OgretmenBL();
+                MessageBox.Show(obl.OgretmenSil(OgretmenId) ? "Silme Başarılı" : "Başarısız!");
+                // Mevcut kayıdı sildikten sonra da textboxları temizler
+                txtOgretmenAd.Clear();
+                txtOgretmenSoyad.Clear();
+                txtOgretmenTCKimlik.Clear();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private void btnOgretmenGuncelle_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var obl = new OgretmenBL();
+                MessageBox.Show(obl.OgretmenGuncelle(new Ogretmen { Ad = txtOgretmenAd.Text.Trim(), Soyad = txtOgretmenSoyad.Text.Trim(), TCKimlik = txtOgretmenTCKimlik.Text.Trim(), OgretmenId = OgretmenId }) ? "Güncelleme Başarılı" : "Güncelleme Başarısız!");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+    
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlAB04L1qZVf5JgLq91/6cxScrikS6L/FhUkBHxRrqhaBKz9wB5ej/4MhdmqFb0UWb7Bc/zo8CWl2Gk3YdiBzw==",
+  "dgSpecHash": "+XQXEKYNqYq01tNWJDgcPhcdwTqVjmDHvG3fZqyb4oAjWw7O6nzdFO6r0SC2YoD4GvEKFHUC3lQk7pl5aAQ47A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Source\\Repos\\OkulAppSonrasiii\\OkulApp.Model\\OkulApp.Model.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Documents\\GitHub\\OkulAppSonrasi\\OkulApp.Model\\OkulApp.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

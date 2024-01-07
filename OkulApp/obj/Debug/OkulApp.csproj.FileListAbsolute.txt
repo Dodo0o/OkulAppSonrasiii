@@ -115,3 +115,4 @@ C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp\obj\Debug\OkulApp.csproj.
 C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp\obj\Debug\OkulApp.csproj.CopyComplete
 C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp\obj\Debug\OkulApp.exe
 C:\Users\Monster\Source\Repos\OkulAppSonrasiii\OkulApp\obj\Debug\OkulApp.pdb
+C:\Users\Monster\Documents\GitHub\OkulAppSonrasi\OkulApp\obj\Debug\OkulApp.FrmOgretmenBul.resources

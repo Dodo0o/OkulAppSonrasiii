@@ -36,6 +36,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnOgretmenBul = new System.Windows.Forms.Button();
+            this.btnOgretmenSil = new System.Windows.Forms.Button();
+            this.btnOgretmenGuncelle = new System.Windows.Forms.Button();
             this.grpOgretmenKayit.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -113,11 +116,46 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad";
             // 
+            // btnOgretmenBul
+            // 
+            this.btnOgretmenBul.Location = new System.Drawing.Point(500, 53);
+            this.btnOgretmenBul.Name = "btnOgretmenBul";
+            this.btnOgretmenBul.Size = new System.Drawing.Size(75, 23);
+            this.btnOgretmenBul.TabIndex = 0;
+            this.btnOgretmenBul.Text = "BUL";
+            this.btnOgretmenBul.UseVisualStyleBackColor = true;
+            this.btnOgretmenBul.Click += new System.EventHandler(this.btnOgretmenBul_Click);
+            // 
+            // btnOgretmenSil
+            // 
+            this.btnOgretmenSil.Enabled = false;
+            this.btnOgretmenSil.Location = new System.Drawing.Point(500, 129);
+            this.btnOgretmenSil.Name = "btnOgretmenSil";
+            this.btnOgretmenSil.Size = new System.Drawing.Size(75, 23);
+            this.btnOgretmenSil.TabIndex = 1;
+            this.btnOgretmenSil.Text = "Sil";
+            this.btnOgretmenSil.UseVisualStyleBackColor = true;
+            this.btnOgretmenSil.Click += new System.EventHandler(this.btnOgretmenSil_Click);
+            // 
+            // btnOgretmenGuncelle
+            // 
+            this.btnOgretmenGuncelle.Enabled = false;
+            this.btnOgretmenGuncelle.Location = new System.Drawing.Point(500, 208);
+            this.btnOgretmenGuncelle.Name = "btnOgretmenGuncelle";
+            this.btnOgretmenGuncelle.Size = new System.Drawing.Size(75, 23);
+            this.btnOgretmenGuncelle.TabIndex = 2;
+            this.btnOgretmenGuncelle.Text = "Güncelle";
+            this.btnOgretmenGuncelle.UseVisualStyleBackColor = true;
+            this.btnOgretmenGuncelle.Click += new System.EventHandler(this.btnOgretmenGuncelle_Click);
+            // 
             // FrmOgretmenKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 450);
+            this.Controls.Add(this.btnOgretmenGuncelle);
+            this.Controls.Add(this.btnOgretmenSil);
+            this.Controls.Add(this.btnOgretmenBul);
             this.Controls.Add(this.grpOgretmenKayit);
             this.Name = "FrmOgretmenKayit";
             this.Text = "FrmOgretmenKayit";
@@ -133,9 +171,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtOgretmenTCKimlik;
-        private System.Windows.Forms.TextBox txtOgretmenSoyad;
-        private System.Windows.Forms.TextBox txtOgretmenAd;
         private System.Windows.Forms.Button btnOgretmenKaydet;
+        private System.Windows.Forms.Button btnOgretmenBul;
+        public System.Windows.Forms.Button btnOgretmenSil;
+        public System.Windows.Forms.Button btnOgretmenGuncelle;
+        public System.Windows.Forms.TextBox txtOgretmenTCKimlik;
+        public System.Windows.Forms.TextBox txtOgretmenSoyad;
+        public System.Windows.Forms.TextBox txtOgretmenAd;
     }
 }
